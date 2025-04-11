@@ -27,3 +27,7 @@
     },
     "chat.mcp.discovery.enabled": true
 }
+
+
+
+ ALTER USER 'test'@'%' IDENTIFIED WITH mysql_native_password BY 'Test@1234#Secure!987';
