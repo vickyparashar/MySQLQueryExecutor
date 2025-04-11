@@ -1,0 +1,6 @@
+@MySQLQueryExecutor_HostAddress = http://localhost:5288
+
+GET {{MySQLQueryExecutor_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

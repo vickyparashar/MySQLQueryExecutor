@@ -1,0 +1,29 @@
+{
+    "files.autoSave": "afterDelay",
+    "@azure.argTenant": "",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.replaceTagsWhenPull": true,
+    "explorer.confirmDelete": false,
+    "python.createEnvironment.trigger": "off",
+    "github.copilot.chat.agent.thinkin  gTool": true,
+    "github.copilot.chat.codesearch.enabled": true,
+    "mcp": {
+
+
+
+        "inputs": [],
+        "servers": {
+            "MySqlService": {
+                "type": "stdio",
+                "command": "dotnet",
+                "args": [
+                    "run",
+                    "--project",
+                    "C:\\VickyJD\\Tools\\MySQLQueryExecutor\\MySQLQueryExecutor.csproj"
+                ]
+            }
+        }
+    },
+    "chat.mcp.discovery.enabled": true
+}
