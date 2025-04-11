@@ -1,0 +1,78 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Configuration files
+appsettings.Development.json
+secrets.json
+
+# Logs
+*.log
+logs/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# dotCover
+*.dotCover
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# VS Mac
+.vscode/
+*.csproj.user
+*.userprefs
+
+# Others
+*.dbmdl
+*.bak
+*.cache
+*.pidb
+*.svclog
+*.pdb
+*.mdb
+
+# Entity Framework Migrations
+Migrations/
+
+# Local test results
+TestResults/
+
+# Docker
+*.container
+*.pid
+*.iml
+
+# Azure Pipelines
+.azure-pipelines/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# JetBrains Rider
+.idea/
