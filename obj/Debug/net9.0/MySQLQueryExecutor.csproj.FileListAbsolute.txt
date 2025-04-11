@@ -85,3 +85,4 @@ C:\VickyJD\Tools\MySQLQueryExecutor\obj\Debug\net9.0\refint\MySQLQueryExecutor.d
 C:\VickyJD\Tools\MySQLQueryExecutor\obj\Debug\net9.0\MySQLQueryExecutor.pdb
 C:\VickyJD\Tools\MySQLQueryExecutor\obj\Debug\net9.0\MySQLQueryExecutor.genruntimeconfig.cache
 C:\VickyJD\Tools\MySQLQueryExecutor\obj\Debug\net9.0\ref\MySQLQueryExecutor.dll
+C:\VickyJD\Tools\MySQLQueryExecutor\obj\Debug\net9.0\MySQLQueryExecutor.sourcelink.json
