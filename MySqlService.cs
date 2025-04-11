@@ -15,9 +15,9 @@ public class MySqlService
         _connectionString = "Server=172.20.146.242;Database=demo;User ID=test;Password=Test@1234#Secure!987;";
     }
 
-    public async Task<List<Dictionary<string, object>>> ExecuteQueryAsync(string query)
+    public async Task<List<Dictionary<string, object?>>> ExecuteQueryAsync(string query)
     {
-        var results = new List<Dictionary<string, object>>();
+        var results = new List<Dictionary<string, object?>>();
 
         try
         {
@@ -29,7 +29,7 @@ public class MySqlService
 
             while (await reader.ReadAsync())
             {
-                var row = new Dictionary<string, object>();
+                var row = new Dictionary<string, object?>();
                 for (int i = 0; i < reader.FieldCount; i++)
                 {
                     row[reader.GetName(i)] = await reader.IsDBNullAsync(i) ? null : reader.GetValue(i);
